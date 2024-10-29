@@ -35,9 +35,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_medical_history"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -46,6 +47,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_medical_history_title"/>
 
@@ -63,9 +65,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_medical_history"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_medications"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -74,6 +77,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_medications_title"/>
 
@@ -91,9 +95,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_medications"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_allergies"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -102,6 +107,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_allergies_title"/>
 
@@ -119,9 +125,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_allergies"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_cancer_screening"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -147,9 +154,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_cancer_screening"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_surgical_history"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -175,9 +183,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_surgical_history"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_family_history"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -186,6 +195,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_family_history_title"/>
 
@@ -203,9 +213,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_family_history"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_social_history"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -214,6 +225,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_social_history_title"/>
 
@@ -231,9 +243,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_social_history"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_advanced_care_planning"
         android:text="-"
+        android:minHeight="50sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -242,6 +255,7 @@
         android:includeFontPadding="false"
         android:gravity="start"
         android:textSize="20sp"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_advanced_care_planning_title"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
